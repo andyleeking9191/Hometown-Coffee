@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*===== Nav-Bar =====*/
+
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+.main-nav__items {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    width: 100%;
+}
+
+.main-nav__item {
+    margin: 0 2rem;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: whitesmoke;
+    transition: color 1s;
+}
+
+.main-nav__item a:hover {
+    
+    color: orangered;
+}
+
+.main-nav__hr {
+    width: 50%;
+    margin: 0 auto;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    left: 16px;
+    bottom: 8px
+}
+
+/*===== Intro Image =====*/
+
+#intro-image {
+  background-image: url("/images/jason-wong-kSlL887znkE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
