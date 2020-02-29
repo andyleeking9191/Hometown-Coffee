@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hometown Coffee</title>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" >
 </head>
 <body>
     <header class="main-header">
         <nav class="main-nav">
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
             <ul class="main-nav__items">
                 <li class="main-nav__item">
                     <a href="">Home</a>
@@ -16,7 +22,7 @@
                 <li class="main-nav__item">
                     <a href="">Menu</a>
                 </li>
-                <li class="main-nav__item">
+                <li class="main-nav__item remove">
                     <a href="">About</a>
                 </li>
                 <li class="main-nav__item">
@@ -28,10 +34,11 @@
     </header>
     <main>
         <section id=intro-image></section>
+        <hr class="section-divide">
         <section class="info">
             <ul class="info__list">
                 <li class="info-item">
-                    <h2>Our Quality</h2>
+                    <h2 class="info-item__title">Our Quality</h2>
                     <div>
                         <a href="">
                             <img src="/images/tina-guina-obV_LM0KjxY-unsplash.jpg" alt="" width="128px" height="128px">
@@ -40,7 +47,7 @@
                     <p></p>
                 </li>
                 <li class="info-item">
-                    <h2>Our Selections</h2>
+                    <h2 class="info-item__title">Our Products</h2>
                     <div>
                         <a href="">
                             <img src="/images/onel-kurda-kkglFv90dyQ-unsplash.jpg" alt="" width="128px" height="128px">
@@ -49,7 +56,7 @@
                     <p></p>
                 </li>
                 <li class="info-item">
-                    <h2>Catering Services</h2>
+                    <h2 class="info-item__title">Catering Services</h2>
                     <div>
                         <a href="">
                             <img src="/images/dimas-anggara-fbiSWc7xawI-unsplash.jpg" alt="" width="128px" height="128px">
@@ -60,5 +67,17 @@
             </ul>
         </section>
     </main>
+    <footer class="main-footer">
+        <nav class="main-footer__nav">
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="">About</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
